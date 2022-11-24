@@ -1,0 +1,263 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+
+.hdimg {
+    background: url(../img/hero-bg.jpg);
+    background-size: cover;
+    z-index: -1;
+    filter: brightness(40%);
+    
+}
+
+.hdlinks {
+    transition: all 1s ease;
+    color: white;
+}
+
+.hdlinks:hover {
+    color: orange;
+}
+
+.hdnav {
+    background: rgba(0, 0, 0, 0.738);
+}
+
+.discription {
+    text-align: center;
+    padding-top: 9%;
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+.box{
+    border: 1px solid grey;
+    height: 5rem;
+    width: 100%;
+}
+.box:hover{
+    border-color: orange;
+    transition: all 1s ease;
+}
+.box2{
+    height: 11rem;
+    width: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.338);
+    transition: all 500ms ease-in;
+}
+.box2:hover{
+    border: none;
+    box-shadow: 5px 5px 30px lightgray;
+    transform: translateY(-5%);
+}
+.ctaimg{
+    z-index: -1;
+    height: 35%;
+}
+.ctabutton{
+    border-color: white;
+}
+.text-grey{
+    color: grey;
+}
+.portfolio-2col{
+    margin-top: -10rem;
+
+}
+.portfolio-3col{
+    margin-top: -12rem;
+}
+.portimg:hover{
+    border: none;
+    transform: translateY(-5%);
+}
+.counts{
+    margin-top: 7rem;
+}
+.col1counts{
+    width: 40%;
+}
+.col2counts{
+    width: 60%;
+}
+/* testimonial session */
+.testimonialbg{
+    height: 50vh;
+    z-index: -1;
+    filter: brightness(40%);
+}
+.tlogo{
+    width: 10rem;
+    align-items: right;
+}
+.tletter{
+    padding: 0 10rem;
+    text-align: center;
+}
+.testh4{
+    margin-top: -1rem;
+}
+.testh6{
+    margin-top: -0.5rem;
+}
+.dot{
+    font-size: 5rem;
+    margin-top: -4rem;
+}
+.team{
+    margin-top: 10rem;
+}
+.teamhr{
+    width: 10rem;
+    filter: brightness(5%);
+}
+.teamh3{
+    color: grey;
+}
+.contacthr{
+    width: 10rem;
+}
+.contacth4{
+    color: grey;
+}
+.contactadd{
+    width: 30%;
+}
+.contactform{
+    width: 70%;
+}
+.user,
+.email{
+    width: 27rem;
+    height: 2.5rem;
+}
+.email{
+    margin-left: -15rem;
+}
+.subject{
+    width: 55rem;
+    height: 3rem;
+}
+.message{
+    width: 55rem;
+    height: 8rem;
+}
+.contactbtn{
+    width: 10rem;
+}
+.footer{
+    background: hsla(0, 0%, 0%, 0.9);
+    height: 40vh;
+}
+.footersl{
+    transition: all 1s ease;
+    color: white;
+
+}
+.footersl:hover{
+    color: orange;
+}
+.footemail{
+    height: 2.7rem;
+    width: 12rem;
+}
+.footbtn{
+    border-color: transparent;
+    border-radius: 0%;
+    padding: 0.5rem 1rem;
+}
+.footbtn:hover{
+    color: rgb(93, 63, 6);
+}
+.copyright{
+    height: 15vh;
+    margin-top: -1.8rem;
+}
+.copyrightp{
+    font-size: small;
+    margin-top: -1.5rem;
+}
+/* Responsiveness check */
+
+@media screen and (max-width: 768px) {
+    .headerlink{
+        display: none;
+    }
+.discription{
+    font-size: 20px;
+}
+.portfolios{
+    margin: 0 5rem;
+}
+.portfolio-2col{
+    margin-top: 1rem;
+}
+.portfolio-3col{
+    margin-top: 1rem;
+}
+.col1counts{
+    width: 100%;
+}
+.col2counts{
+    width: 100%;
+}
+.testimonialbg{
+    
+    width: fit-content;
+    height: 65%;
+}
+.contactadd{
+    width: 100%;
+}
+.contactform{
+    width: 100%;
+}
+.user,
+.email{
+    width: 30rem;
+    height: 2.5rem;
+}
+.email{
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+}
+.subject{
+    width: 30rem;
+    height: 3rem;
+}
+.message{
+    width: 30rem;
+    height: 8rem;
+}
+.footer{
+    height: 100%;
+}
+.footcols1,
+.footcols2,
+.footcols3,
+.footcols4{
+    width: 100%;
+}
+.footemail{
+    width: 75%;
+}
+.footbtn{
+    width: 25%;
+    margin-top: -1rem;
+}
+.col1h5{
+    margin-top: -2rem;
+}
+.col2h5{
+    margin-top: -4.5rem;
+}
+.col3h5,
+.col4h5{
+    margin-top: -2rem;
+}
+.copyright{
+    margin-top: 1rem;
+}
+
+}
