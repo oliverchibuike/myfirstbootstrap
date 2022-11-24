@@ -3,6 +3,10 @@ body {
     padding: 0%;
     overflow-x: hidden;
 }
+header {
+    margin: 0;
+    padding: 0;
+}
 
 .hdimg {
     background: url(../img/hero-bg.jpg);
