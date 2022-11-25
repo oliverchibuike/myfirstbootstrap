@@ -58,13 +58,16 @@ header {
 }
 .ctaimg{
     z-index: -1;
-    height: 35%;
+    height: 40%;
 }
 .ctabutton{
     border-color: white;
 }
 .text-grey{
     color: grey;
+}
+.portfolio{
+    margin-top: 6rem;
 }
 .portfolio-2col{
     margin-top: -10rem;
