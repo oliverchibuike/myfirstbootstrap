@@ -163,15 +163,7 @@ header {
 .footersl:hover{
     color: orange;
 }
-.footemail{
-    height: 2.7rem;
-    width: 12rem;
-}
-.footbtn{
-    border-color: transparent;
-    border-radius: 0%;
-    padding: 0.5rem 1rem;
-}
+
 .footbtn:hover{
     color: rgb(93, 63, 6);
 }
